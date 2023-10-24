@@ -1,0 +1,40 @@
+.scroll{
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+*{
+    background-color: rgb(235, 216, 216);
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styled-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.kitty,.kitty1{
+    width: 100px;
+    height: 130px;
+}
+.kittes{
+    display: flex;
+    justify-content: space-between;
+}
